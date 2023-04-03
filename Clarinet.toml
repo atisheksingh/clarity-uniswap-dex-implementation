@@ -1,0 +1,29 @@
+[project]
+name = 'Uni'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.uni]
+path = 'contracts/uni.clar'
+clarity_version = 1
+epoch = 2.0
+
+[contracts.uni-exchange]
+path = 'contracts/uni-exchange.clar'
+clarity_version = 1
+epoch = 2.0
+
+[contracts.uni-lp]
+path = 'contracts/uni-lp.clar'
+clarity_version = 1
+epoch = 2.0
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
