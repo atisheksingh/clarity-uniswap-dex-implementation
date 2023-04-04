@@ -1,4 +1,4 @@
-#Clarity Dex Demo 
+###Clarity Dex Demo 
 
 This project demonstrates a basic DEX on stacks blockchain.
 
