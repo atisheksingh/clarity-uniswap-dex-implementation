@@ -6,19 +6,19 @@ A Decentralized Exchange on Stacks where users can provide liquidity and earn a 
 
 we have three contracts in clairty as follows : 
 
-##1)uni.clar 
+1)uni.clar 
     An sip-010 standard token that can be used to provide liquidity. 
     Function list :- 
     1) mint 
     2) Burn 
 
-##2)uni-lp.clar 
+2)uni-lp.clar 
     An sip010 standard token that can be sent to address providing liquidity. 
     Function list :- 
     1) mint 
     2) Burn 
 
-##3)Uni-exchange.clar 
+3)Uni-exchange.clar 
 
     Function list : - 
     3.1) Protocol Fee : 0.3%
@@ -35,7 +35,7 @@ we have three contracts in clairty as follows :
         
         
   
-##Command Line insturctions : - 
+Command Line insturctions : - 
 
 To start console:-
 `clarinet console`
