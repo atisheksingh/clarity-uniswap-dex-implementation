@@ -1,4 +1,4 @@
-
+;;token to be used to deposit as liquidity 
 
 (define-fungible-token uni)
 
@@ -16,8 +16,6 @@
 (define-read-only (get-total-supply)
   (ft-get-supply uni)
 )
-
-
 
 (define-public (mint (amount uint) (who principal))
   (begin
