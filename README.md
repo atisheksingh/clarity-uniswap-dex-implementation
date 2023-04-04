@@ -8,18 +8,21 @@ we have three contracts in clairty as follows :
 
 1)uni.clar 
     An sip-010 standard token that can be used to provide liquidity. 
+    
     Function list :- 
     1) mint 
     2) Burn 
 
 2)uni-lp.clar 
     An sip010 standard token that can be sent to address providing liquidity. 
+    
     Function list :- 
     1) mint 
     2) Burn 
 
 3)Uni-exchange.clar 
-
+    A smart contract of dex with swap ,  
+    
     Function list : - 
     3.1) Protocol Fee : 0.3%
 
