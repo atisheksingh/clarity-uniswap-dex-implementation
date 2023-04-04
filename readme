@@ -32,3 +32,18 @@ we have three contracts in clairty as follows :
         -Getting Uni-LP token while adding uni token.
     3.4) Remove liquidity 
         Removing liquidity from protocol 
+        
+        
+  
+Command Line insturctions : - 
+
+To start console:-
+`clarinet console`
+
+To mint custom token :-
+`(contract-call? .uni  mint u5000 tx-sender)`
+
+To call function 
+`(contract-call? .uni-lp  mint u5000 tx-sender)`
+
+
